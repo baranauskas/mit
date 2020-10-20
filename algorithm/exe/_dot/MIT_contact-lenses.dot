@@ -1,0 +1,12 @@
+digraph MITTree {
+N0 [label="tear-prod-rate" ]
+N0->N1 [label="= reduced"]
+N1 [label="none (745.25/12.61)" shape=box style=filled ]
+N0->N2 [label="= normal"]
+N2 [label="astigmatism" ]
+N2->N3 [label="= no"]
+N3 [label="soft (415.19/127.13)" shape=box style=filled ]
+N2->N4 [label="= yes"]
+N4 [label="hard (375.56/145.22)" shape=box style=filled ]
+}
+

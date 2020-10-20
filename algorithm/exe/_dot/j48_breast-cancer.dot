@@ -1,0 +1,14 @@
+digraph J48Tree {
+N0 [label="node-caps" ]
+N0->N1 [label="= yes"]
+N1 [label="deg-malig" ]
+N1->N2 [label="= 1"]
+N2 [label="recurrence-events (1.01/0.4)" shape=box style=filled ]
+N1->N3 [label="= 2"]
+N3 [label="no-recurrence-events (26.2/8.0)" shape=box style=filled ]
+N1->N4 [label="= 3"]
+N4 [label="recurrence-events (30.4/7.4)" shape=box style=filled ]
+N0->N5 [label="= no"]
+N5 [label="no-recurrence-events (228.39/53.4)" shape=box style=filled ]
+}
+

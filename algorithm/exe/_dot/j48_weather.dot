@@ -1,0 +1,18 @@
+digraph J48Tree {
+N0 [label="outlook" ]
+N0->N1 [label="= sunny"]
+N1 [label="humidity" ]
+N1->N2 [label="= high"]
+N2 [label="no (3.0)" shape=box style=filled ]
+N1->N3 [label="= normal"]
+N3 [label="yes (2.0)" shape=box style=filled ]
+N0->N4 [label="= overcast"]
+N4 [label="yes (4.0)" shape=box style=filled ]
+N0->N5 [label="= rainy"]
+N5 [label="windy" ]
+N5->N6 [label="= TRUE"]
+N6 [label="no (2.0)" shape=box style=filled ]
+N5->N7 [label="= FALSE"]
+N7 [label="yes (3.0)" shape=box style=filled ]
+}
+

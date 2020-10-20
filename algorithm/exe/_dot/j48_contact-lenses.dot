@@ -1,0 +1,16 @@
+digraph J48Tree {
+N0 [label="tear-prod-rate" ]
+N0->N1 [label="= reduced"]
+N1 [label="none (12.0)" shape=box style=filled ]
+N0->N2 [label="= normal"]
+N2 [label="astigmatism" ]
+N2->N3 [label="= no"]
+N3 [label="soft (6.0/1.0)" shape=box style=filled ]
+N2->N4 [label="= yes"]
+N4 [label="spectacle-prescrip" ]
+N4->N5 [label="= myope"]
+N5 [label="hard (3.0)" shape=box style=filled ]
+N4->N6 [label="= hypermetrope"]
+N6 [label="none (3.0/1.0)" shape=box style=filled ]
+}
+
